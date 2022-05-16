@@ -1,0 +1,129 @@
+
+/* Formato de Iconos */
+
+[class*=fa-]:empty:before {
+    margin-right: 0;
+}
+
+[class*=fa-]:before {
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal!important;
+    font-weight: 400!important;
+    font-size: inherit;
+    line-height: inherit;
+    text-rendering: geometricPrecision;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    vertical-align: top;
+    margin-right: 10px;
+}
+
+/* Color texto de abajao de la pregunta*/
+
+body {
+    font-size: 15px;
+    
+    
+}
+
+
+.ListSocial a {
+    background-image: linear-gradient(rgb(255, 193, 106) 0%, rgb(229, 111, 0) 100%);
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    border-radius: 5em;   
+    
+}
+.ListSocial a {
+    font-size: 20px;
+    text-align:center;
+    padding: 5px 5px;
+    padding-top: 6px;
+    padding-right: 11.6px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    
+}
+.tw a {
+    background-image: linear-gradient(rgb(68, 205, 230) 0%, rgb(145, 198, 248) 100%);
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    border-radius: 5em;
+}
+.tw a {
+    font-size: 100;
+    text-align:center;
+    padding: 10px 10px;
+    padding-top: 14px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+.Ins a {
+    background-image: linear-gradient(rgb(243, 167, 167) 0%, rgb(214, 5, 15) 100%);
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    border-radius: 5em;
+}
+ .Ins a {
+    font-size: 100;
+    text-align:center;
+    padding: 10px 10px;
+    padding-top: 14px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+.ra, .Po {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none; 
+}
+
+
+
+/*Iconos Azules Animes */
+.Lista li a {
+    display: block;
+    padding: 10px 85px 10px 15px;
+    padding-top: 10px;
+    padding-right: 85px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    position: relative;
+    white-space: nowrap;
+    -ms-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+ 
+
+a, .Title {
+    color: #f3762d;
+    text-decoration: none; 
+}
+a {
+    background-color: transparent;
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+  }
+  
+nav ul, [class*=Menu], [class*=List] {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+
